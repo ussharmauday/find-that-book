@@ -1,0 +1,9 @@
+@FindThatBook.API_HostAddress = http://localhost:5197
+
+POST {{FindThatBook.API_HostAddress}}/api/book/search/
+Accept: application/json
+Content-Type: application/json
+{
+  "query": "huckleberry"
+}
+###

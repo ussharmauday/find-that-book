@@ -1,0 +1,61 @@
+<div class="search-container">
+  <h1>Find That Book</h1>
+
+  <!-- INPUT -->
+  <textarea
+    [(ngModel)]="query"
+    placeholder="Enter a book title, author, or anything you remember…"
+    rows="3"
+  ></textarea>
+
+  <!-- ACTION -->
+  <button (click)="search()" [disabled]="loading || !query.trim()">
+    Search
+  </button>
+
+  <!-- STATES -->
+  @if (loading) {
+    <p>Searching…</p>
+  }
+
+  @if (error) {
+    <p class="error">{{ error }}</p>
+  }
+
+  @if (hasSearched && !loading && !error && results && results.length === 0) {
+    <p>No matching books found.</p>
+  }
+
+  <!-- RESULTS -->
+  @for (book of results; track book.title) {
+    <div class="result-card">
+      @if (book.coverImageUrl) {
+        <img
+          [src]="book.coverImageUrl"
+          alt="Cover image"
+        />
+      }
+
+      <h2>{{ book.title }}</h2>
+
+      <p class="authors">
+        {{ book.primaryAuthors.join(', ') }}
+        @if (book.firstPublishYear) {
+          ({{ book.firstPublishYear }})
+        }
+      </p>
+
+      <p class="explanation">
+        {{ book.explanation }}
+      </p>
+
+      <a
+        [href]="book.workUrl"
+        target="_blank"
+        rel="noopener"
+      >
+        View on Open Library
+      </a>
+    </div>
+  }
+</div>

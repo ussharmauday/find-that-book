@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "FindThatBook.API.Controllers.BookController",
+    "Method": "Search",
+    "RelativePath": "api/book/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FindThatBook.Api.Contracts.SearchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,11 @@
+C:\Users\works\source\repos\FindThatBook\FindThatBook.Domain\bin\Debug\net8.0\FindThatBook.Domain.deps.json
+C:\Users\works\source\repos\FindThatBook\FindThatBook.Domain\bin\Debug\net8.0\FindThatBook.Domain.dll
+C:\Users\works\source\repos\FindThatBook\FindThatBook.Domain\bin\Debug\net8.0\FindThatBook.Domain.pdb
+C:\Users\works\source\repos\FindThatBook\FindThatBook.Domain\obj\Debug\net8.0\FindThatBook.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\works\source\repos\FindThatBook\FindThatBook.Domain\obj\Debug\net8.0\FindThatBook.Domain.AssemblyInfoInputs.cache
+C:\Users\works\source\repos\FindThatBook\FindThatBook.Domain\obj\Debug\net8.0\FindThatBook.Domain.AssemblyInfo.cs
+C:\Users\works\source\repos\FindThatBook\FindThatBook.Domain\obj\Debug\net8.0\FindThatBook.Domain.csproj.CoreCompileInputs.cache
+C:\Users\works\source\repos\FindThatBook\FindThatBook.Domain\obj\Debug\net8.0\FindThatBook.Domain.dll
+C:\Users\works\source\repos\FindThatBook\FindThatBook.Domain\obj\Debug\net8.0\refint\FindThatBook.Domain.dll
+C:\Users\works\source\repos\FindThatBook\FindThatBook.Domain\obj\Debug\net8.0\FindThatBook.Domain.pdb
+C:\Users\works\source\repos\FindThatBook\FindThatBook.Domain\obj\Debug\net8.0\ref\FindThatBook.Domain.dll
