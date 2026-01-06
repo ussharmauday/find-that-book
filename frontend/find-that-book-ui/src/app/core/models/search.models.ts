@@ -5,8 +5,8 @@ export interface SearchResponse {
   
   export interface BookCandidate {
     title: string;
-    primaryAuthors: string[];
-    firstPublishYear?: number;
+    authors?: string[];
+    first_publish_year?: number;
     explanation: string;
     coverImageUrl?: string;
     workUrl: string;

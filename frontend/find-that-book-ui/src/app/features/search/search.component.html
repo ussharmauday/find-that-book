@@ -39,9 +39,9 @@
       <h2>{{ book.title }}</h2>
 
       <p class="authors">
-        {{ book.primaryAuthors.join(', ') }}
-        @if (book.firstPublishYear) {
-          ({{ book.firstPublishYear }})
+        {{ book.authors?.join(', ') }}
+        @if (book.first_publish_year) {
+          ({{ book.first_publish_year }})
         }
       </p>
 

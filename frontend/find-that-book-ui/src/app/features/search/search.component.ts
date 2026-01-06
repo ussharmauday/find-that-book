@@ -31,11 +31,10 @@ export class SearchComponent {
       .pipe(finalize(() => {this.loading = false; console.log(this.loading);}))
       .subscribe({
         next: response => {          
-          this.results = response.results;
+          this.results = response;
           if (this.results!=null && this.results.length === 0) {
             this.error = null; 
           }
-          console.log(response);
           this.loading=false;
           this.cdr.detectChanges();
         },
